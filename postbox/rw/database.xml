@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+	<users>
+		<user name="test" lastname="user" email="user@example.com" username="test" password="0b97022e9ddf9206699bf8a23ff5b5b4" perm="user"/>
+        <user name="super" lastname="admin" email="admin@example.com" username="admin" password="33e25a5822b8f74778e98057a5c8be04" perm="admin"/>
+		<user name="Flag" lastname="Pusher" email="flagpusher@example.com" username="FlagPusher" password="02762f72bf967a051b225853bb0a9fc3" perm="flagpusher"/>
+    </users>
+	<posts>
+		<post author="test" title="Today" desc="What a great day today!" perm="user"/>
+		<post author="test" title="Yesterday" password="badpassword" desc="I slept for an entire day..." perm="user"/>
+		<post author="FlagPusher" desc="This is where a flag will be stored." perm="flagpusher"/>
+	</posts>
+</database>
